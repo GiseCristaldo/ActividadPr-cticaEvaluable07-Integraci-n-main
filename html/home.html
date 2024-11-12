@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/img/icons8-camiseta-para-mujer-48.png">
+        <button id="abrir" class="abrir-menu"><img src= "/img/icons8-menu-16.png"> </button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><img src="/img/icons8-menu-16.png"></button>
+            <ul class="nav-list"> 
+                <li><a href="index.html">Administrar Productos</a> </li>
+                <li><a id="botonCarrito" href="carrito.html">Carrito (0)</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-carousel">
+        <div class="carousel-title">
+            <h3>PRODUCTOS DESTACADOS</h3>
+        </div>
+
+    <div class="container-carousel">
+        <div class="carruseles">
+            <div id="slider">
+                <section class="slider-section">
+                    <img src="https://acdn.mitiendanube.com/stores/830/660/products/zt-0789-frente1-3fec09551661eee71916188600494289-1024-1024.jpg" alt="img 1">
+                </section>
+                <section class="slider-section">
+                    <img src="https://acdn.mitiendanube.com/stores/830/660/products/zt-0280-espalda1-b29d4e79c47438fdc715305684757117-1024-1024.webp" alt="img 2">
+                </section>
+                <section class="slider-section">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_739540-MLA72617804095_112023-O.webp" alt="img 3">
+                </section>
+            </div>
+            <div class="btn-left">&lt;</div>
+            <div class="btn-rigth">&gt;</div>
+        </div>
+    </div>
+    <div id="lista-product" class="producto-container">
+        <!-- Aquí se cargarán los productos -->
+    </div>
+    <script type="module" src="/js/home.js"></script>
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/slider.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+</head>
+
+<body>
+    <header>
+        <img src="/img/icons8-camiseta-para-mujer-48.png">
+        <h2>Cargar nuevos productos</h2>
+        <button id="abrir" class="abrir-menu"><img src= "/img/icons8-menu-16.png"> </button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><img src="/img/icons8-menu-16.png"></button>
+            <ul class="nav-list"> 
+                <li><a href="home.html"> Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulario con los campos de texto -->
+     <div class="formulario-container"> 
+    <form id="productoForm"> <label for="codigo">Código:</label>
+        <input type="number" id="codigo">
+        <br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion">
+        <br><br>
+
+        <label for="imagen">Imagen:</label>
+        <input type="text" id="imagen">
+        <br><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio">
+        <br><br>
+
+        <!-- Botón para agregar producto -->
+        <button type= "submit" id="agregar">Agregar Producto</button>
+    </form>
+</div>
+
+    <!-- Tabla para mostrar los productos -->
+    <h3>Productos Registrados</h3>
+    <table border="1" id="tablaProductos">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+                <th>Precio</th>
+                <th>Eliminar</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody id = "productoFila">
+            <!-- Aca agregamos y agrupamos las filas de usuarios que vayamos cargando-->
+        </tbody>
+    </table>
+
+    <script type="module" src="/js/index.js"></script>
+    <script type="module" src="/js/script.js"></script>
+
+</body>
+
+</html>
