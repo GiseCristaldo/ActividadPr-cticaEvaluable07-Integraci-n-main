@@ -1,0 +1,46 @@
+[{codigo: "1", nombre: "Remera Pink Floyd ", precio: "35000",…},…]
+
+0: {codigo: "1", nombre: "Remera Pink Floyd ", precio: "35000",…}
+codigo: "1"
+descripcion: "Remera Pink Floyd negra algodón y Jersey"
+imagen: "https://acdn.mitiendanube.com/stores/830/660/products/zt-0280-espalda1-b29d4e79c47438fdc715305684757117-1024-1024.webp"
+nombre: "Remera Pink Floyd "
+precio: "35000"
+
+
+1: {codigo: "2", nombre: "Remera Nirvana", precio: "20000", descripcion: "Remera algodón negra",…}
+codigo: "2"
+descripcion: "Remera algodón negra"
+imagen: "https://acdn.mitiendanube.com/stores/029/842/products/nirvana1-2d1bbed349758198e516166141022282-640-0.jpg"
+nombre: "Remera Nirvana"
+precio: "20000"
+
+
+2: {codigo: "3", nombre: "Remera Gorillaz", precio: "16000",…}
+codigo: "3"
+descripcion: "Remera Estampada Varios Diseños Musica Bandas Rock Gorillaz"
+imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTGniPcIOtr1N-xEZMkXKe3YiZI80oy2VQrTOD2K9CP65gy4Wn-dcEjzJPCQsiYYR2Kk&usqp=CAU"
+nombre: "Remera Gorillaz"
+precio: "16000"
+
+3: {codigo: "4", nombre: "Remera Gorillaz 2.0", precio: "20000",…}
+codigo: "4"
+descripcion: "Remera Gorillaz Estampa colorida "
+imagen: "https://http2.mlstatic.com/D_NQ_NP_739540-MLA72617804095_112023-O.webp"
+nombre: "Remera Gorillaz 2.0"
+precio: "20000"
+
+4: {codigo: "5", nombre: "Remera Korn", precio: "25000",…}
+codigo: "5"
+descripcion: "Remera Korn 100% Algodón Bandas Rock Pop Metal Punk"
+imagen: "https://http2.mlstatic.com/D_NQ_NP_703844-MLA72335293885_102023-O.webp"
+nombre: 
+"Remera Korn"
+precio: "25000"
+
+5: {codigo: "6", nombre: "Remera Kiss", precio: "30000",…}
+codigo : "6"
+descripcion: " Remera Kiss 100% Algodón Bandas Rock Pop Metal Punk"
+imagen: "https://http2.mlstatic.com/D_774435-MLA45629108762_042021-O.jpg"
+nombre: "Remera Kiss"
+precio: "30000"
